@@ -43,7 +43,7 @@ const rideValidation = (
     errors.createdBy = "Created by is required";
   } else {
     if (!isValidObjectId(createdBy)) {
-      errors.menu = "Created by should be valid id";
+      errors.createdBy = "Created by should be valid id";
     }
   }
 

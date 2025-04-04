@@ -35,3 +35,9 @@ export interface IRidePayload {
   endDate: string;
   createdBy: string;
 }
+
+export interface ITypePayload {
+  name: string;
+  description: String;
+  createdBy: string;
+}
